@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Manager" max_length="40" name="x_snc_snapp_manager" type="collection">
+        <element label="Approval" max_length="32" name="approval" reference="sysapproval_approver" type="reference"/>
+        <element label="Date Of Joining" max_length="40" name="date_of_joining" type="glide_date_time"/>
+        <element label="Manager Of" max_length="32" name="manager_of" reference="sys_user" type="reference"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="manager_of"/>
+        </index>
+        <index name="index2">
+            <element name="approval"/>
+        </index>
+        <index name="index3">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

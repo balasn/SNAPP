@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_snapp.testing</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>testing</name>
+        <script><![CDATA[var testing = Class.create();
+testing.prototype = {
+	initialize: function() {
+	},
+	call : function(){
+		var gr=new GlideRecord('sys_security_acl');
+		gr.addQuery('sys_id','3a9673e51395d3003a163d7ed144b058');
+		gr.query();
+		if(gr.next()){
+			gs.info(gr.sys_id);
+			gr.description = 'testing123456';
+			if(gr.update())
+				return 'true';
+			else
+				return 'false';
+			
+		}
+	},
+	insert:function(){
+		var gr = new GlideRecord('sys_security_acl');
+		gr.initialize();
+		gr.setValue('name','test');
+		gr.setValue('type','ui_page');
+		var abc = gr.insert();
+	},
+	type: 'testing'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>balasund.swaminathan@snc</sys_created_by>
+        <sys_created_on>2018-04-19 09:17:29</sys_created_on>
+        <sys_id>71541ebd13ed930071b279d96144b0c0</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>testing</sys_name>
+        <sys_package display_value="Snapp" source="x_snc_snapp">955f9b911351d70071b279d96144b0ed</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Snapp">955f9b911351d70071b279d96144b0ed</sys_scope>
+        <sys_update_name>sys_script_include_71541ebd13ed930071b279d96144b0c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-19 09:31:21</sys_updated_on>
+    </sys_script_include>
+</record_update>

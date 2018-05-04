@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>No Acl</name>
+        <order/>
+        <roles>x_snc_snapp.no_acl_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-05 15:25:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c78263551351d70071b279d96144b014</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>No Acl</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Snapp" source="x_snc_snapp">955f9b911351d70071b279d96144b0ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Snapp">955f9b911351d70071b279d96144b0ed</sys_scope>
+        <sys_update_name>sys_ui_application_c78263551351d70071b279d96144b014</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-05 15:25:42</sys_updated_on>
+    </sys_ui_application>
+</record_update>

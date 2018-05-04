@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="SNAPP">876f1f911351d70071b279d96144b087</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Employees</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_snc_snapp_employee</name>
+        <order/>
+        <override_menu_roles>true</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_snc_snapp.employee_user,itil</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-04-05 15:14:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fc1063d11351d70071b279d96144b0a8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Employees</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Snapp" source="x_snc_snapp">955f9b911351d70071b279d96144b0ed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Snapp">955f9b911351d70071b279d96144b0ed</sys_scope>
+        <sys_update_name>sys_app_module_fc1063d11351d70071b279d96144b0a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-04-06 10:36:57</sys_updated_on>
+        <timeline_page/>
+        <title>Employees</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
